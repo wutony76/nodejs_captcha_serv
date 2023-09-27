@@ -6,7 +6,9 @@ http://localhost:30000/parse?d=驗證圖檔名
 
 
 ## Project setup
+```
   npm run start
+```
 
 ### python rely 
 ```
