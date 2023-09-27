@@ -6,7 +6,8 @@
 npm run start
 
 ### python rely 
-pip uninstall Pillow
-pip install Pillow==9.5.0
+
+#### pip uninstall Pillow
+#### pip install Pillow==9.5.0
 
 
