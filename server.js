@@ -5,6 +5,9 @@ var express = require('express'),
 var cors = require('cors');
 var routes = require('./api/routes/todoListRoutes');
 
+//setting middleware
+app.use(express.static(__dirname + '/public')); //Serves resources from public folder
+
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
